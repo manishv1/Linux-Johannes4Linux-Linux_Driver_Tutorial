@@ -2,7 +2,7 @@
 
 Here you can find examples for simple Linux Kernel Modules and Linux Drivers.
 
-## Preperation
+## Preparation
 
 I used a Raspberry Pi 3 to develop and test my modules and drivers. To compile them, you need to install the Kernel headers on your Pi. On Raspbian you can do this with the following command:
 
