@@ -1,1 +1,0 @@
-cmd_/home/pi/Programming/Linux_Driver_Tutorial/7_BMP280/bmp280.ko := ld -r  -EL  --build-id  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds -o /home/pi/Programming/Linux_Driver_Tutorial/7_BMP280/bmp280.ko /home/pi/Programming/Linux_Driver_Tutorial/7_BMP280/bmp280.o /home/pi/Programming/Linux_Driver_Tutorial/7_BMP280/bmp280.mod.o;  true
