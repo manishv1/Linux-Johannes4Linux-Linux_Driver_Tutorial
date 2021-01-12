@@ -20,6 +20,7 @@ In this repo you can find examples for:
 3. Create device file in driver and callbacks
 4. GPIO Driver
 5. Text LCD Driver
-7. PWM Module
-8. Temperature Sensor (I2C)
-9. Servo Motor Driver (High Resolution Timer)
+6. PWM Module
+7. Temperature Sensor (I2C)
+8. Timer in Linux Kernel Modules
+9. High Resolution Timer in Linux Kernel Modules
