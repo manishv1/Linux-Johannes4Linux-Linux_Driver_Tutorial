@@ -25,3 +25,4 @@ In this repo you can find examples for:
 8. Timer in Linux Kernel Modules
 9. High Resolution Timer in Linux Kernel Modules
 10. Accessing SPI with a Linux Kernel Module (BMP280 sensor again)
+11. Using a GPIO Interrupt in a Linux Kernel Module
