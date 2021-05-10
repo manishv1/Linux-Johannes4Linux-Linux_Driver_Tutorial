@@ -27,3 +27,7 @@ In this repo you can find examples for:
 10. Accessing SPI with a Linux Kernel Module (BMP280 sensor again)
 11. Using a GPIO Interrupt in a Linux Kernel Module
 12. Using Parameters in a Linux Kernel Module
+
+## More Information
+
+For more information about my Linux Driver examples check out my [videos and my playlist](https://www.youtube.com/watch?v=x1Y203vH-Dc&list=PLCGpd0Do5-I3b5TtyqeF1UdyD4C-S-dMa)
