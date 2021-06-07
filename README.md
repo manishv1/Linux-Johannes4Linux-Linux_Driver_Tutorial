@@ -28,6 +28,7 @@ In this repo you can find examples for:
 11. Using a GPIO Interrupt in a Linux Kernel Module
 12. Using Parameters in a Linux Kernel Module
 13. IOCTL in a Linux Kernel Module
+14. Threads in a Linux Kernel Module
 
 ## More Information
 
