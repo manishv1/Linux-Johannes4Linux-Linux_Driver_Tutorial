@@ -29,6 +29,7 @@ In this repo you can find examples for:
 12. Using Parameters in a Linux Kernel Module
 13. IOCTL in a Linux Kernel Module
 14. Threads in a Linux Kernel Module
+15. Sending a signal from a Linux Kernel Module to an userspace application
 
 ## More Information
 
