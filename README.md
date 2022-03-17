@@ -37,6 +37,8 @@ In this repo you can find examples for:
 13. IOCTL in a Linux Kernel Module
 14. Threads in a Linux Kernel Module
 15. Sending a signal from a Linux Kernel Module to an userspace application
+16. The poll callback
+17. Waitqueues in a Linux Kernel Module
 
 ## More Information
 
