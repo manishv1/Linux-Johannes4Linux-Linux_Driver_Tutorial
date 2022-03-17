@@ -14,7 +14,7 @@ sudo apt install raspberrypi-kernel-headers
 Raspberry Pi OS is only installs the latest kernel headers. So, make sure, you are running the latest kernel. You can do this by running: 
 
 ```bash
-sudo apt update
+sudo apt upgrade
 ```
 
 You also need the build utils (make, gcc, ...) but they come preinstalled on Raspbian.
