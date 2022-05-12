@@ -1,0 +1,16 @@
+/dts-v1/;
+/plugin/;
+/ {
+	compatible = "brcm,bcm2835";
+	fragment@0 {
+		target-path = "/";
+		__overlay__ {
+			my_device {
+				compatible = "brightlight,mydev";
+				status = "okay";
+				label = "Test";
+				my_value = <12>;
+			};
+		};
+	};
+};
