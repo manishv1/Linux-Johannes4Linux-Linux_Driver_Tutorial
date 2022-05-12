@@ -40,7 +40,9 @@ In this repo you can find examples for:
 16. The poll callback
 17. Waitqueues in a Linux Kernel Module
 18. Create procfs entries from a Linux Kernel Module
-18. Create sysfs entries from a Linux Kernel Module
+19. Create sysfs entries from a Linux Kernel Module
+20. Parse the device tree from a Linux Kernel Module to get the deivce properties of a specific device
+
 
 ## More Information
 
