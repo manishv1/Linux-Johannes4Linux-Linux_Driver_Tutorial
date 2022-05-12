@@ -9,7 +9,7 @@ MODULE_DESCRIPTION("A hello world LKM");
 /**
  * @brief This function is called, when the module is loaded into the kernel
  */
-static int __init ModuleInit(void) {
+static int __init my_init(void) {
 	printk("Hello, Kernel!\n");
 	return 0;
 }
@@ -17,11 +17,11 @@ static int __init ModuleInit(void) {
 /**
  * @brief This function is called, when the module is removed from the kernel
  */
-static void __exit ModuleExit(void) {
+static void __exit my_exit(void) {
 	printk("Goodbye, Kernel\n");
 }
 
-module_init(ModuleInit);
-module_exit(ModuleExit);
+module_init(my_init);
+module_exit(my_exit);
 
 
