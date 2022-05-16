@@ -42,6 +42,7 @@ In this repo you can find examples for:
 18. Create procfs entries from a Linux Kernel Module
 19. Create sysfs entries from a Linux Kernel Module
 20. Parse the device tree from a Linux Kernel Module to get the deivce properties of a specific device
+21. Device Tree GPIO Driver 
 
 
 ## More Information
