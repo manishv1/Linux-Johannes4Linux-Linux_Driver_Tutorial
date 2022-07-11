@@ -45,6 +45,7 @@ In this repo you can find examples for:
 21. Device Tree GPIO Driver 
 22. Device Tree Driver for I2C Device
 23. Dynamical memory management in a Linux Kernel module
+24. Serial (UART) Driver
 
 
 ## More Information

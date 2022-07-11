@@ -1,0 +1,14 @@
+/dts-v1/;
+/plugin/;
+/ {
+	compatible = "brcm,bcm2835";
+	fragment@0 {
+		target = <&uart1>;
+		__overlay__ {
+			echodev {
+				compatible = "brightlight,echodev";
+				status = "okay";
+			};
+		};
+	};
+};
