@@ -46,6 +46,7 @@ In this repo you can find examples for:
 22. Device Tree Driver for I2C Device
 23. Dynamical memory management in a Linux Kernel module
 24. Serial (UART) Driver
+25. Industrial IO compatible driver for an ATMEGA I2C ADC
 
 
 ## More Information
