@@ -7,3 +7,6 @@ To decrease the frequency, add the following at the end of /boot/config.txt
 ~~~
 dtparam i2c_baudrate=10000
 ~~~
+
+
+And also don't forget to enable I2C over raspi-config!
