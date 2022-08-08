@@ -47,6 +47,7 @@ In this repo you can find examples for:
 23. Dynamical memory management in a Linux Kernel module
 24. Serial (UART) Driver
 25. Industrial IO compatible driver for an ATMEGA I2C ADC
+26. Device Tree SPI Driver (IIO compatible driver for Atmega SPI ADC)
 
 
 ## More Information
