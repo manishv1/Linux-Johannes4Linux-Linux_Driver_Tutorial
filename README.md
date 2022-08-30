@@ -48,6 +48,7 @@ In this repo you can find examples for:
 24. Serial (UART) Driver
 25. Industrial IO compatible driver for an ATMEGA I2C ADC
 26. Device Tree SPI Driver (IIO compatible driver for Atmega SPI ADC)
+27. Misc Device
 
 
 ## More Information
