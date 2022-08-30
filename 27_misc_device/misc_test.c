@@ -33,10 +33,10 @@ static ssize_t my_write(struct file *file, const char __user *user_buffer, size_
 		data_len = MAX_SIZE;
 	else
 		data_len = user_len;
-	printk("misc_device - Write called\n");
+	printk("misc_test - Write called\n");
 	status = copy_from_user(data, user_buffer, data_len);
 	if(status) {
-		printk("misc_device - Error during copy_from_user\n");
+		printk("misc_test - Error during copy_from_user\n");
 		return -status;
 	}
 	return data_len;
@@ -49,10 +49,10 @@ static ssize_t my_read(struct file *file, char __user *user_buffer, size_t user_
 		len = user_len;
 	else
 		len = data_len;
-	printk("misc_device - Read called\n");
+	printk("misc_test - Read called\n");
 	status = copy_to_user(user_buffer, data, len);
 	if(status) {
-		printk("misc_device - Error during copy_to_user\n");
+		printk("misc_test - Error during copy_to_user\n");
 		return -status;
 	}
 	return len;
